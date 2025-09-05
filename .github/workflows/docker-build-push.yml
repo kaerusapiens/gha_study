@@ -20,6 +20,7 @@ jobs:
       id-token: write
     steps:
       - name: Checkout code
+        # 액션(Action) 사용
         uses: actions/checkout@v4
 
       - name: Set up Docker Buildx
